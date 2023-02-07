@@ -1,0 +1,13 @@
+file_format: "1"
+id: chocboard
+name: chocBoard
+type: shield
+url: https://github.com/xpsking/chocBoard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - chocboard_left
+  - chocboard_right
