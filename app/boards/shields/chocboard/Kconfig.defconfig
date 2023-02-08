@@ -1,7 +1,7 @@
 if SHIELD_CHOCBOARD_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "chocboard"
+    default "chocBoard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
