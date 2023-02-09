@@ -3,6 +3,7 @@
 chosen {
     zmk,kscan = &kscan0;
     zmk,matrix-transform = &default_transform;
+    zephyr,display = &nice_view_spi;
 };
 
 default_transform: keymap_transform_0 {
@@ -33,7 +34,7 @@ kscan0: kscan {
 };
 
 nice_view_spi: &spi0 {
-	// compatible = "nordic,nrf-spim";
+	compatible = "nordic,nrf-spim";
 	sck-pin = <8>;
 	mosi-pin = <17>;
     miso-pin = <9>;

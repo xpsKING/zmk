@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "*.overlay": "dts",
-    "*.keymap": "dts"
+    "*.keymap": "dts",
+    "*.dtsi": "c"
   },
   "python.formatting.provider": "black",
   "cmake.sourceDirectory": "${workspaceFolder}/app"
