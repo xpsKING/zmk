@@ -33,14 +33,6 @@ kscan0: kscan {
     };
 };
 
-nice_view_spi: &spi0 {
-	compatible = "nordic,nrf-spim";
-	sck-pin = <17>;
-	mosi-pin = <8>;
-    miso-pin = <9>;
-	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
-};
-
 &pro_micro_i2c {
 	status = "disabled";
 };

@@ -1,5 +1,11 @@
 #include "chocboard.dtsi" // Notice that the main dtsi files are included in the overlay.
-
+nice_view_spi: &spi0 {
+	compatible = "nordic,nrf-spim";
+	sck-pin = <31>;
+	mosi-pin = <8>;
+    miso-pin = <9>;
+	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+};
 &kscan0 {
     col-gpios
         = <&pro_micro 20 GPIO_ACTIVE_HIGH> // col1 in the schematic
