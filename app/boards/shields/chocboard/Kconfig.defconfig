@@ -8,6 +8,11 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+config ZMK_IDLE_TIMEOUT
+    default 300000
+    
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 1800000
 
 config ZMK_USB
     default y
