@@ -1,5 +1,8 @@
 # Zephyr™ Mechanical Keyboard (ZMK) Firmware
-
+Command to build chocboard firmware:
+```
+west build -p -d build/right -b nice_nano_v2 -- -DSHIELD="chocboard_right nice_view" 
+```
 [![Discord](https://img.shields.io/discord/719497620560543766)](https://zmk.dev/community/discord/invite)
 [![Build](https://github.com/zmkfirmware/zmk/workflows/Build/badge.svg)](https://github.com/zmkfirmware/zmk/actions)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
