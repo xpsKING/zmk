@@ -1,0 +1,13 @@
+file_format: "1"
+id: c4
+name: c4
+type: shield
+url: https://github.com/xpsking/c4
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - c4_left
+  - c4_right
