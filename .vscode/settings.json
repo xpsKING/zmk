@@ -5,5 +5,19 @@
     "*.dtsi": "c"
   },
   "python.formatting.provider": "black",
-  "cmake.sourceDirectory": "${workspaceFolder}/app"
+  "[c]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[css][json][jsonc][html][markdown][yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
